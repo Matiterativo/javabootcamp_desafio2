@@ -11,11 +11,11 @@ public class Ejercicio_1 {
         final int HORAS_EN_SEMANA = 168; // 24 * 7
         
         final String TEXTO_INICIO_PROGRAMA = " =========================================================== \n" +
-                							 " \u001B[1mCONVERSOR DE HORAS A SEMANAS, DIAS y HORAS\u001B[0m \n" +
+                			     " \u001B[1mCONVERSOR DE HORAS A SEMANAS, DIAS y HORAS\u001B[0m \n" +
                                              " \u001B[1mV.1.0 \u001B[0m\n\n" +
-                							 " \u001B[1mInstrucciones:\u001B[0m ingrese un número entero de horas.\n"+
+                			     " \u001B[1mInstrucciones:\u001B[0m ingrese un número entero de horas.\n"+
                                              " Las mismas serán convertidas a semanas, días y horas.\n" +
-                							 " Ingrese 0 para finalizar el programa.\n" +
+                			     " Ingrese 0 para finalizar el programa.\n" +
                                              " =========================================================== \n";
         
         final String MENSAJE_INGRESO_HORAS = "Ingrese la cantidad de horas a convertir: ";
