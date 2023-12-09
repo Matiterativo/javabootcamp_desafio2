@@ -4,7 +4,7 @@ public class Ejercicio_2 {
 
 	public static void main(String[] args) {
 		
-		int n1=5;
+	int n1=5;
         int n2=10;
         int n3=20;
         
