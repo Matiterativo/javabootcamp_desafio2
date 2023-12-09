@@ -54,8 +54,8 @@ public class Ejercicio_1 {
 				}
 				
 			} catch (InputMismatchException e) {
-	            System.out.println(MENSAJE_ERROR_TIPO_INVALIDO);
-	            scanner.next(); //Consumo entrada no numérica para permitir leer un nuevo ingreso
+	            		System.out.println(MENSAJE_ERROR_TIPO_INVALIDO);
+	            		scanner.next(); //Consumo entrada no numérica para permitir leer un nuevo ingreso
 			}
 			
 			System.out.println(TEXTO_LINEA_DIVISORIA);
