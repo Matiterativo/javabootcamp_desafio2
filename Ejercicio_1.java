@@ -7,26 +7,26 @@ public class Ejercicio_1 {
 
 	public static void main(String[] args) {
 		
-        final int HORAS_EN_DIA = 24;
-        final int HORAS_EN_SEMANA = 168; // 24 * 7
+        	final int HORAS_EN_DIA = 24;
+        	final int HORAS_EN_SEMANA = 168; // 24 * 7
         
-        final String TEXTO_INICIO_PROGRAMA = " =========================================================== \n" +
-                			     " \u001B[1mCONVERSOR DE HORAS A SEMANAS, DIAS y HORAS\u001B[0m \n" +
-                                             " \u001B[1mV.1.0 \u001B[0m\n\n" +
-                			     " \u001B[1mInstrucciones:\u001B[0m ingrese un número entero de horas.\n"+
-                                             " Las mismas serán convertidas a semanas, días y horas.\n" +
-                			     " Ingrese 0 para finalizar el programa.\n" +
-                                             " =========================================================== \n";
+        	final String TEXTO_INICIO_PROGRAMA = " =========================================================== \n" +
+                				     " \u001B[1mCONVERSOR DE HORAS A SEMANAS, DIAS y HORAS\u001B[0m \n" +
+                        	                     " \u001B[1mV.1.0 \u001B[0m\n\n" +
+                				     " \u001B[1mInstrucciones:\u001B[0m ingrese un número entero de horas.\n"+
+                                        	     " Las mismas serán convertidas a semanas, días y horas.\n" +
+                			     	     " Ingrese 0 para finalizar el programa.\n" +
+                                             	     " =========================================================== \n";
         
-        final String MENSAJE_INGRESO_HORAS = "Ingrese la cantidad de horas a convertir: ";
-        final String MENSAJE_CONVERSION_CORRECTA = "Semanas: %d\nDías: %d\nHoras: %d \n";        
-        final String MENSAJE_ERROR_ENTEROS_NEGATIVOS = "Error: para la conversión debe ingresar un número mayor a 0, o 0 para finalizar.";
-        final String MENSAJE_ERROR_TIPO_INVALIDO = "Error: debe ingresar un número entero.";
-        final String MENSAJE_FIN_PROGRAMA = "\nUsted a finalizado el programa. Hasta luego!! \u263A";
-        final String TEXTO_LINEA_DIVISORIA = "-------------------------------------------------------------";
+        	final String MENSAJE_INGRESO_HORAS = "Ingrese la cantidad de horas a convertir: ";
+        	final String MENSAJE_CONVERSION_CORRECTA = "Semanas: %d\nDías: %d\nHoras: %d \n";        
+        	final String MENSAJE_ERROR_ENTEROS_NEGATIVOS = "Error: para la conversión debe ingresar un número mayor a 0, o 0 para finalizar.";
+        	final String MENSAJE_ERROR_TIPO_INVALIDO = "Error: debe ingresar un número entero.";
+        	final String MENSAJE_FIN_PROGRAMA = "\nUsted a finalizado el programa. Hasta luego!! \u263A";
+        	final String TEXTO_LINEA_DIVISORIA = "-------------------------------------------------------------";
         
-        int cantidadHoras=-1;		
-        Scanner scanner = new Scanner(System.in);
+        	int cantidadHoras=-1;		
+        	Scanner scanner = new Scanner(System.in);
         
 		System.out.println(TEXTO_INICIO_PROGRAMA);
 		
